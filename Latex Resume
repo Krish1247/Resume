@@ -1,0 +1,250 @@
+%-------------------------
+% Resume in Latex
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage[dvipsnames]{xcolor}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\color{BrickRed}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{BrickRed}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textbf{\small#3} & \text{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+  {\Huge \scshape KRISHNAKUMAR R} \\ \vspace{5pt}
+  \small \raisebox{-0.1\height}\faPhone\ 9445294148~ \href{www.gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{rkrishnakumar0408@gmail.com}} ~
+  \href{https://www.linkedin.com/in/krishnakumar0405/}{\raisebox{-0.2\height}\faLinkedin\ \underline{krishnakumar0405}}  ~
+  \href{https://github.com/Krish1247}{\raisebox{-0.2\height}\faGithub\ \underline{Github}}
+  \vspace{-8pt}
+\end{center}
+
+\vspace{-1pt}
+\section{Career Objective}
+
+I would like to be a part of an organization where I could use and enhance my knowledge and talent for the development of both the organization and myself. A recent computer science graduate with a passion for software development and a strong knowledge of Java, Python, and SQL.
+
+\vspace{-1pt}
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{SRM Institute of Science and Technology, Chennai}{2022 - 2024}{\textbf{(MCA)}\textit{ Master Of Computer Applications}}{9.6/10 CGPA}
+\resumeSubHeadingListEnd
+\vspace{-7pt}
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{SRM Institute of Science and Technology, Chennai}{2019 - 2022}{\textbf{(B.Sc)}\textit{ Bachelor's of Computer Science}}{9.2/10 CGPA}
+\resumeSubHeadingListEnd
+\vspace{-7pt}
+
+
+
+% -----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Wiz-Systems (USA-\textbf{Remote})}{Jan 2024 -- Mar 2024}
+{\textbf{Cloud Data Handler Intern}}{\href{https://drive.google.com/file/d/1G17JjfFp0tAxONcqvwmE-xeMims1dolV/view?usp=drive_link}{\underline{\textbf{Certificate}}}}
+\resumeItemListStart
+\vspace{2pt}
+\resumeItem{Hands-on experience with \textbf{AWS S3} cloud storage, including setting up buckets and managing access controls. }
+\vspace{2pt}
+\resumeItem{Beginner in \textbf{GoLang} programming language and familiarity with \textbf{Snowflake Database} for data warehousing}
+\vspace{2pt}
+\resumeItem{Designed an \textbf{Entity-Relationship (ER)} model using \textbf{DBdiagram} for a university registration system, encompassing entities such as students, courses, professors, and departments. }
+\vspace{2pt}
+\resumeItem{ Wrote comprehensive test cases for \textbf{Sudar.io application} to validate system functionalities and ensure robustness and reliability.}
+\vspace{2pt}
+\resumeItem{Collaborated with team members to brainstorm ideas, troubleshoot issues, and implement solutions effectively}
+\vspace{2pt}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-7pt}
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+\vspace{-5pt}
+\resumeSubHeadingListStart
+\resumeProjectHeading{\textbf{Cursor Control Using Eye Movements}}{\href{https://github.com/Krish1247/Cursor-Control-Using-Eye-Movements.git}{\underline{Source Code}}}
+\resumeItemListStart
+\resumeItem{This project is a novel \textbf{Human-Computer} interaction technique.}
+\resumeItem{This project aims to develop a low-cost and \textbf{user-friendly system }that can track the \textbf{eye movements} of the user using a webcam and translate them into \textbf{cursor movements and clicks}.}
+\resumeItem{\textbf{Python} as the programming language and \textbf{OpenCV, MediaPipe} and \textbf{PyAutoGUI} as the main libraries.}
+\resumeItemListEnd
+\vspace{-13pt}
+\resumeSubHeadingListEnd
+\vspace{-3pt}
+
+\vspace{-5pt}
+\resumeSubHeadingListStart
+\resumeProjectHeading{\textbf{My Health Application}}{\href{https://drive.google.com/drive/folders/1srlrAQ19WcpUlRtSy4zhbbbD39-SHUVn?usp=drive_link}{\underline{Source Code}}}
+\resumeItemListStart
+\resumeItem{A \textbf{Mobile Application} for Personalized Health and Wellness}
+\resumeItem{This application helps the user to store doctor's prescriptions, alarm for taking medicines and \textbf{SOS button} in emergency circumstances.}
+\resumeItem{\textbf{Used Java, Android Studio}}
+\resumeItem{Tested the app’s \textbf{functionality}, \textbf{usability}, \textbf{performance}, and \textbf{security}.}
+\resumeItemListEnd
+\vspace{-13pt}
+\resumeSubHeadingListEnd
+\vspace{-3pt}
+
+\vspace{-5pt}
+\resumeSubHeadingListStart
+\resumeProjectHeading{\textbf{Resume}}{\href{https://github.com/Krish1247/Cursor-Control-Using-Eye-Movements.git}{\underline{Source Code}}}
+\resumeItemListStart
+\resumeItem{This resume was created using \textbf{LaTeX} in Overleaf.}
+\resumeItem{Overleaf is a collaborative \textbf{cloud-based LaTeX editor} used for writing, editing and publishing documents. }
+\resumeItemListEnd
+\vspace{-13pt}
+\resumeSubHeadingListEnd
+\vspace{-3pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \item{
+        \textbf{Languages}{: Python, Java, C} \\
+        \textbf{Frontend}{:HTML, CSS,} \\
+        \textbf{Clouds \& Databases}{: AWS, Snowflake} \\
+        \textbf{Developer Tools}{: VS Code, GitHub, Android Studio } \\
+        \textbf{Framework}{: Flutter\textit{(beginner)} }
+        }
+\end{itemize}
+\vspace{-15pt}
+
+\section{Honours and Certifications}
+
+\resumeSubHeadingListStart
+
+\resumeItemListStart
+\resumeItem{Secured THIRD place in TECHNOFIESTA 2K22 Paper presentation on "Innovation in Automation"}{\href{https://drive.google.com/file/d/1c-dlXpIZm85kaMoBdUvp35xaprvX8yKX/view?usp=sharing}{\textit{Certificate}}
+\resumeItem{Certified in NPTEL - Problem solving through \textbf{Programming In C.}}{\href{https://drive.google.com/file/d/1j0CqeSngrPYQ47wcZC7y6Axbyw5EnX0X/view?usp=sharing}{ \textit{Certificate}}
+\resumeItem{Certification in AWS Cloud Practitoner}{ \textit{Ongoing}}
+\resumeItem{Flutter \& Dart in Udemy}{ \textit{Ongoing}}
+\resumeItem{Certification in NPTEL - Programming In Java. }{ \textit{Ongoing}}
+\resumeItem{Certification in ISC2 - Cyber Security. }{ \textit{Ongoing}}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-5 mm}
+\resumeSubHeadingListStart
+\resumeItemListStart
+\vspace{-4mm}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+\resumeItemListEnd
+
+\end{document}
